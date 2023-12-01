@@ -7,9 +7,15 @@ public class BoardVO {
     private String name;
     private String birthday;
     private String mbti;
-//    private String writer;
-//    private String content;
-//    private Date regdate;
+
+    private String email;
+    private String phonenum;
+    private String studentid;
+    private String major;
+    private String rc;
+
+
+
     private int cnt;
 
     public int getSeq() {
@@ -27,7 +33,6 @@ public class BoardVO {
         this.name = name;
     }
 
-
     public String getBirthday() {
         return birthday;
     }
@@ -40,12 +45,44 @@ public class BoardVO {
     public void setMbti(String mbti) {
         this.mbti = mbti;
     }
-//    public String getTitle() {
-//        return title;
-//    }
-//    public void setTitle(String title) {
-//        this.title = title;
-//    }
+
+
+
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    public String getPhonenum() {
+        return phonenum;
+    }
+    public void setPhonenum(String phonenum) {
+        this.phonenum = phonenum;
+    }
+
+
+    public String getStudentid() {
+        return studentid;
+    }
+    public void setStudentid(String studentid) {
+        this.studentid = studentid;
+    }
+    public String getMajor() {
+        return major;
+    }
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public String getRc() {
+        return rc;
+    }
+    public void setRc(String rc) {
+        this.rc = rc;
+    }
+
+
 //    public String getCategory() {
 //        return category;
 //    }
