@@ -77,7 +77,8 @@
         <%--        <tr><th>Content:</th><td><textarea cols="50" rows="5" name="content"></textarea></td></tr>--%>
 
     </table>
-    <button type="button" onclick="location.href='/board/list'">목록보기</button>
+<%--    <button type="button" onclick="location.href='/board/list'">목록보기</button>--%>
+    <button type="button" onclick="history.back()">목록보기</button>
     <button type="submit">등록하기</button>
 <%--    <div><a href="list">View All Records</a><td align="right"><input type="submit" value="Add Post"/></div>--%>
 </form>
